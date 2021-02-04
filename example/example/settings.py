@@ -27,10 +27,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = [
+    'django_celery_beat',
+    'django_celery_results',
     'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
